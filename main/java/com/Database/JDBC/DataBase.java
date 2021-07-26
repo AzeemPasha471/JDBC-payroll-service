@@ -17,7 +17,7 @@ public class DataBase {
 				Statement stmt = conn.createStatement();) {
 			System.out.println("Connected With the database successfully");
 			String sql = "CREATE DATABASE emppayroll_service";
-			stmt.executeUpdate(sql);
+			stmt.executeUpdate(sql);  
 			System.out.println("Database created successfully...");
 		} catch (SQLException e) {
 			e.printStackTrace();
